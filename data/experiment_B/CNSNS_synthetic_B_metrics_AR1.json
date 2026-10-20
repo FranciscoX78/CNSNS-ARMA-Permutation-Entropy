@@ -1,0 +1,31 @@
+{
+  "process": "X_t=0.55 X_(t-1)+alpha sin(X_(t-1))+epsilon_t; eps iid N(0,1)",
+  "alpha_values": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "m": 6,
+  "tau": 1,
+  "window_N": 3600,
+  "realizations_per_alpha": 30,
+  "n_windows": 270,
+  "burnin": 1000,
+  "seed": 20261020,
+  "surrogates_per_fit": 100,
+  "Gaussian_population_Hlin": "Sobol QMC from AR(p) stationary Gaussian covariance, 2^16 points",
+  "main_comparison": "PE estimator on N=3600 vs mean PE on N=3600 Gaussian fitted AR surrogates",
+  "QMC_check_max_abs_difference": 0.00034087140515981496,
+  "number_valid_AR1": 270,
+  "caution": "alpha !=0 induces nonlinear conditional mean; association/departure from a fitted Gaussian AR does not itself prove nonlinearity in unknown empirical processes",
+  "reference": "Fitted Gaussian AR(1) only in manuscript and shared processed results",
+  "fitted_references": [
+    "AR(1) conditional least squares"
+  ]
+}
