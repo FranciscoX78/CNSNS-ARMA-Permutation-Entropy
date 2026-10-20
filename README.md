@@ -183,4 +183,4 @@ validation of the fitted Gaussian ARMA assumption.
 
 ## Status
 
-Prepared for author review; **not yet uploaded to GitHub**, not assigned a release tag or DOI, and not yet cited from the final manuscript. See the publishing checklist.
+Publicly available at https://github.com/FranciscoX78/CNSNS-ARMA-Permutation-Entropy and cited in the revised manuscript's Data and Code Availability statements. No versioned GitHub release tag or archival DOI has been assigned yet. See the publishing checklist.
